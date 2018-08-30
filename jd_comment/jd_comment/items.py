@@ -7,6 +7,8 @@
 
 from scrapy import Field, Item
 
+import asyncio
+
 
 class CommentItem(Item):
     sku_id = Field()
