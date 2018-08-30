@@ -8,7 +8,6 @@
 from scrapy import Field, Item
 
 import asyncio
-import abc
 
 
 class CommentItem(Item):
